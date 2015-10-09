@@ -1,4 +1,9 @@
-
+def factorial(n):
+    '''Returns the factorial of a number'''
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
 
 def isPrime(n):
     '''Returns true if a number n is a prime number'''
